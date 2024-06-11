@@ -1,5 +1,16 @@
 import { createApp } from 'vue'
-import './style.css'
+import { VUETIFY_SETTINGS } from './plugins/vuetify'
+
+// Components
 import App from './App.vue'
 
-createApp(App).mount('#app')
+// Create Vue App
+const APP = createApp(App)
+
+// Use Plugins
+APP.use(VUETIFY_SETTINGS)
+
+// Mount Vue App
+APP.mount('#app')
+
+
