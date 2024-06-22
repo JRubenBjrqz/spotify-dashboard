@@ -4,6 +4,7 @@ import * as directives from 'vuetify/directives'
 
 // Files
 import theme from './theme'
+import icons from './icons'
 
 // Styles
 import 'vuetify/styles'
@@ -11,5 +12,6 @@ import 'vuetify/styles'
 export const VUETIFY_SETTINGS = createVuetify({
     components,
     directives,
-    theme
+    theme,
+    icons
 })
